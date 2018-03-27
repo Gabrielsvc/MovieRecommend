@@ -9,4 +9,16 @@ public class Filme {
 	float averageRating;
 	int numVotes;
 	
+	public void codificacao(){
+		
+	}
+	
+	public float funcaoAvaliacao(Filme filme ) 
+	{
+		float fx = 0;
+
+		return fx; 
+				
+	}
+	
 }
