@@ -1,0 +1,54 @@
+tt0000009	movie	Miss Jerry	Miss Jerry	0	1894	\N	45	Romance
+tt0000335	movie	Soldiers of the Cross	Soldiers of the Cross	0	1900	\N	\N	Biography,Drama
+tt0000630	movie	Hamlet	Amleto	0	1908	\N	\N	Drama
+tt0000676	movie	Don �?lvaro o la fuerza del sino	Don �?lvaro o la fuerza del sino	0	1908	\N	\N	Drama
+tt0000739	movie	El pastorcito de Torrente	El pastorcito de Torrente	0	1908	\N	\N	Drama
+tt0000793	movie	Andreas Hofer	Andreas Hofer	0	1909	\N	\N	Drama
+tt0000859	movie	Fabricación del corcho en Sant Feliu de Guixols	Fabricación del corcho en Sant Feliu de Guixols	0	1909	\N	\N	\N
+tt0000867	movie	Fiesta de toros	Fiesta de toros	0	1909	\N	\N	\N
+tt0000869	movie	Fiestas en La Garriga	Fiestas en La Garriga	0	1909	\N	\N	\N
+tt0000879	movie	Gira política de Madero y Pino Suárez	Gira política de Madero y Pino Suárez	0	1909	\N	\N	\N
+tt0000891	movie	Cycle Rider and the Witch	Heksen og cyklisten	0	1909	\N	\N	\N
+tt0001007	movie	La primera y segunda casetas	La primera y segunda casetas	0	1909	\N	\N	\N
+tt0001043	movie	Smith's Knockabout Theatre	Smith's Knockabout Theatre	0	1909	\N	\N	\N
+tt0001045	movie	Le songe d'une nuit d'été	Le songe d'une nuit d'été	0	1909	\N	\N	\N
+tt0001049	movie	Gøngehøvdingen	Gøngehøvdingen	0	1909	\N	\N	Drama,War
+tt0001051	movie	El sueño milagroso	El sueño milagroso	0	1909	\N	\N	\N
+tt0001059	movie	O Terremoto de Benavente	O Terremoto de Benavente	0	1909	\N	\N	Documentary
+tt0001069	movie	Toma del Gurugu	Toma del Gurugu	0	1909	\N	\N	\N
+tt0001081	movie	La vida en el campamento	La vida en el campamento	0	1909	\N	\N	\N
+tt0001101	movie	Abraham Lincoln's Clemency	Abraham Lincoln's Clemency	0	1910	\N	\N	\N
+tt0001109	movie	L'aluminite	L'aluminite	0	1910	\N	\N	\N
+tt0001113	movie	Amor gitano	Amor gitano	0	1910	\N	\N	\N
+tt0001115	movie	Ansigttyven I	Ansigttyven I	0	1910	\N	\N	Crime
+tt0001141	movie	The Butterfly	The Butterfly	0	1910	\N	\N	\N
+tt0001147	movie	O Centenário da Guerra Peninsular	O Centenário da Guerra Peninsular	0	1910	\N	\N	Documentary
+tt0001159	movie	The Connecticut Yankee	The Connecticut Yankee	0	1910	\N	\N	\N
+tt0001163	movie	Corrida da Rampa	Corrida da Rampa	0	1910	\N	\N	Documentary
+tt0001175	movie	Camille	La dame aux camélias	0	1912	\N	\N	Drama,Romance
+tt0001179	movie	Desfile histórico del centenario	Desfile histórico del centenario	0	1910	\N	\N	\N
+tt0001203	movie	Excursión al Gombreny	Excursión al Gombreny	0	1910	\N	\N	\N
+tt0001247	movie	His Brother's Wife	His Brother's Wife	0	1910	\N	\N	\N
+tt0001277	movie	Kapergasten	Kapergasten	0	1910	\N	\N	Drama
+tt0001285	movie	The Life of Moses	The Life of Moses	0	1909	\N	\N	Biography,Drama,Family
+tt0001341	movie	Jarní sen starého mládence	Jarní sen starého mládence	0	1913	\N	\N	Comedy
+tt0001353	movie	Paganini	Paganini	0	1910	\N	\N	\N
+tt0001359	movie	A Pesca do Bacalhau	A Pesca do Bacalhau	0	1910	\N	\N	Documentary
+tt0001379	movie	A Record Hustle Through Foggy London	A Record Hustle Through Foggy London	0	1910	\N	\N	\N
+tt0001381	movie	En rekrut fra 64	En rekrut fra 64	0	1910	\N	\N	Drama,War
+tt0001440	movie	Valdemar Sejr	Valdemar Sejr	0	1910	\N	\N	Drama,History
+tt0001482	movie	As in a Looking Glass	As in a Looking Glass	0	1911	\N	\N	Drama
+tt0001498	movie	The Battle of Trafalgar	The Battle of Trafalgar	0	1911	\N	51	War
+tt0001530	movie	The Bushranger's Bride	Captain Midnight, the Bush King	0	1911	\N	\N	Drama
+tt0001569	movie	The Daddy's Dream	The Daddy's Dream	0	1911	\N	\N	\N
+tt0001587	movie	Don Pedro el Cruel	Don Pedro el Cruel	0	1911	\N	\N	\N
+tt0001603	movie	Den farlige leg	Den farlige leg	0	1911	\N	\N	Drama
+tt0001692	movie	The Great Moment	Im großen Augenblick	0	1911	\N	\N	Drama
+tt0001706	movie	The Infant at Snakeville	The Infant at Snakeville	0	1911	\N	\N	\N
+tt0001712	movie	Jane Shore	Jane Shore	0	1911	\N	\N	\N
+tt0001716	movie	Julius Caesar's Sandals	Julius Caesar's Sandals	0	1911	\N	\N	\N
+tt0001731	movie	The Convict Hero	The Life of Rufus Dawes	0	1911	\N	\N	Drama
+tt0001756	movie	Lucha por la herencia	Lucha por la herencia	0	1911	\N	92	\N
+tt0001764	movie	Madero al sur del país	Madero al sur del país	0	1911	\N	\N	\N
+tt0001778	movie	Menneskedyret	Menneskedyret	0	1911	\N	\N	\N
+tt0001780	movie	Midsummer Tide	Midsummer Tide	0	1911	\N	\N	\N
