@@ -8,6 +8,8 @@ public class Filme {
 	List<String> cast = new ArrayList<String>(); //atores principais
 	float averageRating;
 	int numVotes;
+	int fitness;
+	
 	
 	public void codificacao(){
 		
