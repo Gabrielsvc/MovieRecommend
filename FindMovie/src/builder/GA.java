@@ -23,9 +23,19 @@ public class GA {
 		for(int i=0; i<n; i++){
 			
 		}
-		
-	public void ordenar
 	}
+	public void ordenar(){
+		for(int i=0; i<n; i++){
+			for(int j=i; j<n; j++){
+				if(pop.get(i).fitness < pop.get(i).fitness){
+					Filme aux = pop.get(i);
+					pop.set(i, pop.get(j));
+					pop.set(j, aux);
+				}
+			}
+		}
+	}
+	
 	
 
 	
