@@ -10,8 +10,7 @@ public class Database {
 
 public void populate(){
 		// endereço do arquivo onde encontramos os filmes series etc  
-		String filmes = "C:/Users/lucas/Documents/MovieRecommend/FindMovie/src/builder/filmesBruto.tsv"; 
-		
+		String filmes = "C:/Users/lucas/Documents/MovieRecommend/FindMovie/filmes.tsv"; 
 		// base de leitura
 		BufferedReader br = null; 
 		
@@ -22,48 +21,32 @@ public void populate(){
 		// para serparar a leitura
 		String tsvSplitBy = "\t"; 
 		
-		// iniciaizando a escrita do arquivo apenas com os filmes
-		PrintWriter filmesSemBaboseira = null; 
-		
-		// try e catch são os tratamentos para caso o arquivo não abra, não exista etc ..,
-		try {  
-			filmesSemBaboseira = new PrintWriter("filmes.tsv","UTF-8");
-		}
-		
-		// arquivo não encontrado
-		catch (FileNotFoundException e1) {
-			// emite um erro ...
-			e1.printStackTrace();
-			
-		}
-		
-		catch (UnsupportedEncodingException e1) {
-			e1.printStackTrace();
-		}
 		try{
 			//inicializando a leitura do arquivo
 			br = new BufferedReader(new FileReader(filmes));
 			
 			//Só para mostrar quando começa a ler
-			System.out.println("Leitura e escrita de arquivo");
+			System.out.println("Leitura de arquivo");
 			
-			while(( br.readLine()) != null){
+			String info[] = null;
+			int i=0;
+			line = br.readLine();
+			while((( line = br.readLine()) != null )&& i<1000000){
 				// leitura da linha
-				line = br.readLine();
-				
+				Filme toadd = new Filme();
 				//Divide a linha em vetor separados pelo tab
-				String[] info = line.split(tsvSplitBy);
-				
-				//separa o arquivo apenas na parte que queremos
-				//apenas os fimes 
-				if(info[1].equalsIgnoreCase("movie") ){
-					
-					//armazena no arquivo a linha escolida
-					//a linha com as informações do filme
-					filmesSemBaboseira.println(line);
-				}
+				info = line.split(tsvSplitBy);
+				i++;
+				//System.out.println(info[0]);
+				toadd.genres.add(info[8]);
+				toadd.cast.add(info[1]);
+				toadd.cod = info[0];
+				toadd.directors.add(info[3]);
+				toadd.title = info[2];
+				pop.add(toadd);
 			}
 			
+			System.out.println("O filme é : " + pop.get(240280).toString());
 			//Só para mostrar que finalizou a leitura
 			System.out.println("acabou a escrita" );
 			
@@ -94,4 +77,9 @@ public void populate(){
 		}
 		
 	}
+public Filme get() {
+	Filme got;
+	got = this.pop.get(0);
+	return got;
+}
 }
