@@ -77,9 +77,9 @@ public void populate(){
 		}
 		
 	}
-public Filme get() {
+public Filme get(int index) {
 	Filme got;
-	got = this.pop.get(0);
+	got = this.pop.get(index);
 	return got;
 }
 }
