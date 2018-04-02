@@ -29,6 +29,9 @@ public void populate(){
 			System.out.println("Leitura de arquivo");
 			
 			String info[] = null;
+			String gen[] = null;
+			String atores[] = null;
+			String direc[] = null;
 			int i=0;
 			line = br.readLine();
 			while((( line = br.readLine()) != null )&& i<1000000){
@@ -38,11 +41,15 @@ public void populate(){
 				info = line.split(tsvSplitBy);
 				i++;
 				//System.out.println(info[0]);
-				toadd.genres.add(info[8]);
-				toadd.cast.add(info[1]);
+				gen= info[2].split(",");
+				atores = info[4].split(",");
+				direc = info[3].split(",");
+				toadd.genres.add(gen[0]);
+				toadd.cast.add(atores[0]);
 				toadd.cod = info[0];
-				toadd.directors.add(info[3]);
-				toadd.title = info[2];
+				toadd.directors.add(direc[0]);
+				toadd.title = info[1];
+				toadd.averageRating = Float.parseFloat(info[5]);
 				pop.add(toadd);
 			}
 			
